@@ -1,0 +1,4 @@
+link_base = "https://www.example.com/"
+css_url = "https://www.example.css"
+from_lore_path = "examples/src"
+to_html_path = "examples/target"

@@ -1,0 +1,11 @@
+[package]
+name = "lore-impl-web-collections-2026-04-07-1"
+version = "0.1.0"
+edition = "2024"
+description = "Lore Impl Web Collections 2026 04 07 1"
+license = "MIT"
+homepage = "https://fleetinglore.github.io"
+repository = "https://github.com/dotCorain/lore-protocol-web-collections"
+readme = "README.md"
+
+[dependencies]

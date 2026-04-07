@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "lore-web-collections-core",
+    "lexer/lore-lexer-web-collections-2026-04-07-1",
+    "lexer/lore-lexer-web-collections-2026-04-07-2",
+    "impl/lore-impl-web-collections-2026-04-07-1",
+    "impl/lore-impl-web-collections-2026-04-07-2",
+    "bin/lore-bin-web-collections-2026-04-07-1",
+    "bin/lore-bin-web-collections-2026-04-07-2",
+    "bin/lore-bin-web-collections-2026-04-07-3",
+    "bin/lore-bin-web-collections-2026-04-07-4"
+    ]
+resolver = "3"

@@ -1,0 +1,23 @@
+[package]
+name = "lore-bin-web-collections-2026-04-07-3"
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+description = "Lore Bin Web Collections 2026 04 07 3"
+homepage = "https://fleetinglore.github.io"
+repository = "https://github.com/dotCorain/lore-web-collections"
+readme = "README.md"
+
+[dependencies]
+lore-implementation-web-collections-to-info = "0.0.1"
+lore-lexer-web-collections-d1 = "0.0.2"
+lore-protocol-web-collections = "0.0.1"
+
+toml = "1.0.6"
+serde = { version = "1.0.228", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = "symbols"

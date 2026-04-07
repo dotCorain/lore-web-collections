@@ -1,0 +1,8 @@
+[package]
+name = "lore-lexer-web-collections-2026-04-07-2"
+version = "0.1.0"
+edition = "2024"
+description = "Lore Lexer Web Collections 2026 04 07 2"
+license = "MIT"
+
+[dependencies]
