@@ -3,7 +3,7 @@
 
 # 基础链接 URL，用于生成 Lore 链接
 # 例如：内部链接会生成为 {link_base}/index/{name}.html
-link_base = "https://example.com/"
+link_base = "https://www.example.com"
 
 # CSS 样式表路径
 # 可以是相对路径或绝对 URL

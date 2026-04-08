@@ -13,6 +13,6 @@ toml = "1.0.6"
 serde = { version = "1.0.228", features = ["derive"] }
 lore-web-collections-core = { version = "0.1.1" }
 lore-lexer-web-collections-2026-04-07-1 = { version = "0.1.0" }
-lore-impl-web-collections-2026-04-07-2 = { version = "0.1.1" }
+lore-impl-web-collections-2026-04-07-2 = { version = "0.1.2" }
 
 
