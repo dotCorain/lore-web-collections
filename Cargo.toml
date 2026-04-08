@@ -5,10 +5,7 @@ members = [
     "lexer/lore-lexer-web-collections-2026-04-07-2",
     "impl/lore-impl-web-collections-2026-04-07-1",
     "impl/lore-impl-web-collections-2026-04-07-2",
-    "bin/lore-bin-web-collections-2026-04-07-1",
-    "bin/lore-bin-web-collections-2026-04-07-2",
-    "bin/lore-bin-web-collections-2026-04-07-3",
-    "bin/lore-bin-web-collections-2026-04-07-4"
+    "bin/lore-bin-web-collections-2026-04-07-1"
     ]
 resolver = "3"
 
