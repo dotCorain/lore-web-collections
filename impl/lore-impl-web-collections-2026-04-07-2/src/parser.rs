@@ -42,7 +42,10 @@ impl<'a> Parser<'a> {
                 )
             },
             LineType::Atom(atom) => {
-                atom.to_string()
+                format!(
+                    r#"<p>{}</p>"#,
+                    atom
+                )
             }
         }
     }

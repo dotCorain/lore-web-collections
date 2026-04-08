@@ -11,7 +11,7 @@ dependencies = [
 
 [[package]]
 name = "lore-impl-web-collections-2026-04-07-2"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "lore-web-collections-core 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
