@@ -1,6 +1,6 @@
 [package]
 name = "lore-impl-web-collections-2026-04-07-2"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "Lore Impl Web Collections 2026 04 07 2"
 license = "MIT"

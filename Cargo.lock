@@ -28,7 +28,7 @@ dependencies = [
 name = "lore-bin-web-collections-2026-04-07-1"
 version = "0.0.1"
 dependencies = [
- "lore-impl-web-collections-2026-04-07-2 0.1.0",
+ "lore-impl-web-collections-2026-04-07-2 0.1.1",
  "lore-lexer-web-collections-2026-04-07-1 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "lore-web-collections-core 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde",
@@ -44,16 +44,16 @@ dependencies = [
 
 [[package]]
 name = "lore-impl-web-collections-2026-04-07-2"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "602684543801c0e584fea54875631c64a5f5effb1965806a474cc7e5ad11057d"
+checksum = "bd619202d57f8313c5289948a4c077d2b6c1f1e80c2dc2d179663ffa2caa0e6c"
 dependencies = [
  "lore-web-collections-core 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "lore-impl-web-collections-2026-04-07-2"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "lore-web-collections-core 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]

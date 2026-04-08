@@ -20,7 +20,7 @@ impl<'a> Parser<'a> {
             },
             LineType::LoreLink(name, lore) => {
                 format!(
-                    r#"<p style="margin-left: 2rem"><a href="{}/index/{}.html" class="link_lore">{}</a></p>"#,
+                    r#"<p style="margin-left: 2rem"><a href="{}{}.html" class="link_lore">{}</a></p>"#,
                     self.impl_context.link_base,
                     lore,
                     name
