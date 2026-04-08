@@ -22,8 +22,8 @@ impl<'a> Parser<'a> {
                 format!(
                     r#"<p style="margin-left: 2rem"><a href="{}/index/{}.html" class="link_lore">{}</a></p>"#,
                     self.impl_context.link_base,
-                    name,
-                    lore
+                    lore,
+                    name
                 )
             },
             LineType::Placeholder => {
