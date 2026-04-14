@@ -12,6 +12,25 @@ impl LoreHtml {
 
 impl From<LoreHtml> for String {
     fn from(val: LoreHtml) -> Self {
+        // 根据 cargo feature 决定是否添加 MathJax 脚本
+        #[cfg(feature = "math")]
+        let mathjax_script = r#"
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  },
+  options: {
+    ignoreHtmlClass: 'no-mathjax'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>"#;
+
+        #[cfg(not(feature = "math"))]
+        let mathjax_script = "";
+
         format!(
             r#"<html lang="zh-CN">
 <head>
@@ -19,6 +38,7 @@ impl From<LoreHtml> for String {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{}</title>
 <link rel="stylesheet" href="{}">
+{}
 </head>
 <body><main>
 {}
@@ -26,6 +46,7 @@ impl From<LoreHtml> for String {
 </html>"#,
             val.title,
             val.css_url,
+            mathjax_script,
             val.html_content,
         )
     }

@@ -10,3 +10,7 @@ readme = "README.md"
 
 [dependencies]
 lore-web-collections-core = { version = "0.1.1" }
+
+[features]
+math = []
+default = []
